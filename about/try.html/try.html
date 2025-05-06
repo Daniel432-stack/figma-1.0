@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Новости</title>
+  <style>
+   body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #0a0f14; /* Темно-синий почти черный */
+  color: white;
+}
+    header, footer {
+      text-align: center;
+      padding: 20px;
+    }
+    .container {
+      max-width: 1200px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+    .card {
+  position: relative;
+  background-color: #1c1c1c;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 2px solid transparent;}
+    .card:hover {
+      border: 2px solid #00bfff;
+    }
+    .card img {
+      width: 100%;
+      display: block;
+    }
+
+    .date {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: #00bfff;
+  color: white;
+  padding: 4px 10px;
+  font-size: 12px;
+  border-radius: 3px;
+  font-weight: bold;
+}
+
+    .title {
+      margin: 10px;
+      font-weight: bold;
+    }
+    footer {
+      font-size: 14px;
+      color: #888;
+    }
+    .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+  }
+
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  .nav a {
+    margin: 0 10px;
+    font-size: 14px;
+  } 
+  </style>
+</head>
+<body>
+    <header class="header">
+        <div class="logo">w</div>
+        <nav class="nav">
+            <a href="#">Главная</a>
+            <a href="#">Сеансы</a>
+            <a href="./fly.htm/fly.html">Контакты</a>
+          <a href="#">Отзывы</a>
+          <a href="#">Новости</a>
+          <a href="#">Обо мне</a>
+          <a href="#">Блог</a>
+        </nav>
+        <a href="#" class="btn">Записаться на сеанс</a>
+      </header>
+  <header>
+    <h1>Новости</h1>
+  </header>
+  <div class="container">
+    <div class="grid">
+      <div class="card">
+        <img src="./Rectangle 24.png" alt="Новость">
+        <div class="date">13.03.2022</div>
+        <div class="title">Новый формат сеансов</div>
+      </div>
+      <div class="card">
+        <img src="./Rectangle 24.png" alt="Новость">
+        <div class="date">13.03.2022</div>
+        <div class="title">Новый формат сеансов</div>
+      </div>
+      <div class="card">
+        <img src="./Rectangle 24.png" alt="Новость">
+        <div class="date">13.03.2022</div>
+        <div class="title">Новый формат сеансов</div>
+      </div>
+      <div class="card">
+        <img src="./Rectangle 24.png" alt="Новость">
+        <div class="date">13.03.2022</div>
+        <div class="title">Новый формат сеансов</div>
+      </div>
+      <div class="card">
+        <img src="./Rectangle 24.png" alt="Новость">
+        <div class="date">13.03.2022</div>
+        <div class="title">Новый формат сеансов</div>
+      </div>
+      <div class="card">
+        <img src="./Rectangle 24.png" alt="Новость">
+        <div class="date">13.03.2022</div>
+        <div class="title">Новый формат сеансов</div>
+      </div>
+    </div>
+  </div>
+  <footer>
+    &copy; 2016–2022 Wtemplate | Сделано в Jello
+  </footer>
+</body>
+</html>
